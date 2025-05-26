@@ -17,109 +17,6 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       color: #333;
       overflow-x: hidden;
-      transition: all 0.3s ease;
-    }
-
-    /* Dark theme styles */
-    body.dark-theme {
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-      color: #e0e0e0;
-    }
-
-    body.dark-theme .container {
-      background: #2d2d44;
-      color: #e0e0e0;
-    }
-
-    body.dark-theme .feature-card {
-      background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
-      color: #e0e0e0;
-    }
-
-    body.dark-theme .feature-title {
-      color: #ffffff;
-    }
-
-    body.dark-theme .feature-desc {
-      color: #b0b0b0;
-    }
-
-    body.dark-theme .section-title {
-      color: #ffffff;
-    }
-
-    body.dark-theme .comment {
-      background: #3a3a52;
-      border-color: #4a4a5a;
-      color: #e0e0e0;
-    }
-
-    body.dark-theme .comment:hover {
-      border-color: #667eea;
-    }
-
-    body.dark-theme .comment-author {
-      color: #ffffff;
-    }
-
-    body.dark-theme .comment-date {
-      color: #a0a0a0;
-    }
-
-    body.dark-theme .comment-text {
-      color: #d0d0d0;
-    }
-
-    body.dark-theme .form-group label {
-      color: #ffffff;
-    }
-
-    body.dark-theme .form-group input,
-    body.dark-theme .form-group textarea,
-    body.dark-theme .form-group select {
-      background: #3a3a52;
-      border-color: #4a4a5a;
-      color: #e0e0e0;
-    }
-
-    body.dark-theme .form-group input::placeholder,
-    body.dark-theme .form-group textarea::placeholder {
-      color: #a0a0a0;
-    }
-
-    body.dark-theme .form-group input:focus,
-    body.dark-theme .form-group textarea:focus,
-    body.dark-theme .form-group select:focus {
-      border-color: #667eea;
-    }
-
-    body.dark-theme .comment-form {
-      background: rgba(102, 126, 234, 0.15);
-    }
-
-    body.dark-theme .contact-form {
-      background: rgba(255, 107, 107, 0.15);
-    }
-
-    body.dark-theme .modal-content {
-      background: #2d2d44;
-      color: #e0e0e0;
-    }
-
-    body.dark-theme .stats {
-      background: rgba(45, 45, 68, 0.8);
-    }
-
-    body.dark-theme .stat-label {
-      color: #a0a0a0;
-    }
-
-    body.dark-theme .empty-state {
-      color: #a0a0a0;
-    }
-
-    body.dark-theme .tagline {
-      color: #b0b0b0;
     }
 
     .hero {
@@ -157,50 +54,6 @@
     .header {
       text-align: center;
       margin-bottom: 40px;
-      position: relative;
-    }
-
-    .theme-toggle {
-      position: absolute;
-      top: 0;
-      right: 0;
-      background: rgba(255, 255, 255, 0.2);
-      border: 2px solid rgba(255, 255, 255, 0.3);
-      border-radius: 50px;
-      padding: 8px 16px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 14px;
-      font-weight: 600;
-      color: #333;
-      backdrop-filter: blur(10px);
-    }
-
-    .theme-toggle:hover {
-      background: rgba(255, 255, 255, 0.3);
-      transform: translateY(-2px);
-    }
-
-    body.dark-theme .theme-toggle {
-      background: rgba(45, 45, 68, 0.7);
-      border-color: rgba(255, 255, 255, 0.2);
-      color: #e0e0e0;
-    }
-
-    body.dark-theme .theme-toggle:hover {
-      background: rgba(45, 45, 68, 0.9);
-    }
-
-    .theme-icon {
-      font-size: 16px;
-      transition: transform 0.3s ease;
-    }
-
-    .theme-toggle:hover .theme-icon {
-      transform: rotate(20deg);
     }
 
     .logo {
@@ -300,16 +153,6 @@
 
     .login-btn:hover {
       box-shadow: 0 12px 28px rgba(102, 126, 234, 0.4);
-    }
-
-    .contact-btn {
-      background: linear-gradient(135deg, #FF6B6B, #FF5722);
-      color: white;
-      box-shadow: 0 8px 20px rgba(255, 107, 107, 0.3);
-    }
-
-    .contact-btn:hover {
-      box-shadow: 0 12px 28px rgba(255, 107, 107, 0.4);
     }
 
     .deploy-section {
@@ -418,19 +261,6 @@
       line-height: 1.5;
     }
 
-    .contact-section {
-      margin-top: 50px;
-      padding-top: 30px;
-      border-top: 2px solid #eee;
-    }
-
-    .contact-form {
-      background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(255, 87, 34, 0.1));
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 30px;
-    }
-
     .comments-section {
       margin-top: 50px;
       padding-top: 30px;
@@ -456,8 +286,7 @@
     }
 
     .form-group input,
-    .form-group textarea,
-    .form-group select {
+    .form-group textarea {
       width: 100%;
       padding: 12px 16px;
       border: 2px solid #ddd;
@@ -468,8 +297,7 @@
     }
 
     .form-group input:focus,
-    .form-group textarea:focus,
-    .form-group select:focus {
+    .form-group textarea:focus {
       outline: none;
       border-color: #667eea;
     }
@@ -491,14 +319,6 @@
       box-shadow: 0 8px 16px rgba(102, 126, 234, 0.3);
     }
 
-    .contact-submit-btn {
-      background: linear-gradient(135deg, #FF6B6B, #FF5722);
-    }
-
-    .contact-submit-btn:hover {
-      box-shadow: 0 8px 16px rgba(255, 107, 107, 0.3);
-    }
-
     .comments-list {
       space-y: 16px;
     }
@@ -518,7 +338,7 @@
 
     .comment-header {
       display: flex;
-      justify-content: space-between;
+      justify-content: between;
       align-items: center;
       margin-bottom: 12px;
     }
@@ -563,51 +383,6 @@
       color: #666;
       font-size: 0.9rem;
       font-weight: 500;
-    }
-
-    .empty-state {
-      text-align: center;
-      padding: 40px 20px;
-      color: #666;
-      font-style: italic;
-    }
-
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 1000;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0,0,0,0.5);
-      backdrop-filter: blur(5px);
-    }
-
-    .modal-content {
-      background-color: #fefefe;
-      margin: 5% auto;
-      padding: 30px;
-      border-radius: 16px;
-      width: 90%;
-      max-width: 500px;
-      position: relative;
-      animation: fadeIn 0.3s ease-out;
-    }
-
-    .close {
-      color: #aaa;
-      float: right;
-      font-size: 28px;
-      font-weight: bold;
-      position: absolute;
-      right: 20px;
-      top: 15px;
-      cursor: pointer;
-    }
-
-    .close:hover {
-      color: #000;
     }
 
     @keyframes fadeIn {
@@ -664,10 +439,6 @@
   <div class="hero">
     <div class="container">
       <div class="header">
-        <button class="theme-toggle" onclick="toggleTheme()" id="themeToggle">
-          <span class="theme-icon" id="themeIcon">🌙</span>
-          <span id="themeText">Dark</span>
-        </button>
         <div class="logo">
           <svg viewBox="0 0 24 24">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.464 3.488"/>
@@ -677,18 +448,10 @@
         <p class="tagline">Advanced WhatsApp Bot with Multi-Device Support<br>Experience the future of WhatsApp automation</p>
       </div>
 
-      <div class="stats">
-        <div class="stat">
-          <div class="stat-number" id="visitorCount">0</div>
-          <div class="stat-label">Visitors</div>
-        </div>
+      
         <div class="stat">
           <div class="stat-number">50+</div>
           <div class="stat-label">Commands</div>
-        </div>
-        <div class="stat">
-          <div class="stat-number" id="commentCount">0</div>
-          <div class="stat-label">Comments</div>
         </div>
         <div class="stat">
           <div class="stat-number">99.9%</div>
@@ -698,12 +461,11 @@
 
       <div class="main-actions">
         <a href="https://pair-web-6awt.onrender.com" class="action-btn whatsapp-btn" target="_blank">
-          📱 LINK IN WhatsApp
+          📱 LINKED IN WhatsApp
         </a>
-        <a href="https://pair-web-6awt.onrender.com" class="action-btn login-btn">
-          📞 Contact Us
+        <a href="login.html" class="action-btn login-btn">
+          🔐 Get Started
         </a>
-       
       </div>
 
       <div class="deploy-section">
@@ -721,7 +483,7 @@
             </svg>
             Deploy on Render
           </a>
-          <a href="https://github.com/Mahii-Botz/MAHII-MD-V2" class="deploy-btn github-btn" target="_blank">
+          <a href="https://github.com/yourusername/mahii-md" class="deploy-btn github-btn" target="_blank">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
             </svg>
@@ -764,7 +526,7 @@
       </div>
 
       <div class="comments-section">
-        <h2 class="section-title"> User Comments</h2>
+        <h2 class="section-title">💬 User Comments</h2>
         
         <div class="comment-form">
           <form id="commentForm">
@@ -774,7 +536,7 @@
             </div>
             <div class="form-group">
               <label for="email">Email (optional)</label>
-              <input type="email" id="email" name="email" placeholder="mihirangawickramasinghe@gmail.com">
+              <input type="email" id="email" name="email" placeholder="your.email@example.com">
             </div>
             <div class="form-group">
               <label for="comment">Comment</label>
@@ -785,164 +547,105 @@
         </div>
 
         <div class="comments-list" id="commentsList">
-          <div class="empty-state" id="emptyState">
-            No comments yet. Be the first to share your experience with MAHII-MD!
+          <div class="comment">
+            <div class="comment-header">
+              <span class="comment-author">induwara</span>
+              <span class="comment-date">2 days ago</span>
+            </div>
+            <div class="comment-text">QR code genarate ekath hadapan.</div>
+          </div>
+          
+          <div class="comment">
+            <div class="comment-header">
+              <span class="comment-author">janith induwara</span>
+              <span class="comment-date">1 week ago</span>
+            </div>
+            <div class="comment-text">Mru Bota bng Keep it up</div>
+          </div>
+          
+          <div class="comment">
+            <div class="comment-header">
+              <span class="comment-author">malindu chathuranga</span>
+              <span class="comment-date">2 weeks ago</span>
+            </div>
+            <div class="comment-text">wasi wasi.</div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Contact Modal -->
-  <div id="contactModal" class="modal">
-    <div class="modal-content">
-      <span class="close" onclick="closeContactModal()">&times;</span>
-      <h2 class="section-title">📞 Contact Us</h2>
-      <div class="contact-form">
-        <form id="contactForm">
-          <div class="form-group">
-            <label for="contactName">Name</label>
-            <input type="text" id="contactName" name="contactName" required placeholder="Your full name">
-          </div>
-          <div class="form-group">
-            <label for="contactEmail">Email</label>
-            <input type="email" id="contactEmail" name="contactEmail" required placeholder="your.email@example.com">
-          </div>
-          <div class="form-group">
-            <label for="contactSubject">Subject</label>
-            <select id="contactSubject" name="contactSubject" required>
-              <option value="">Select a subject</option>
-              <option value="support">Technical Support</option>
-              <option value="feature">Feature Request</option>
-              <option value="bug">Bug Report</option>
-              <option value="business">Business Inquiry</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="contactMessage">Message</label>
-            <textarea id="contactMessage" name="contactMessage" rows="5" required placeholder="Describe your inquiry..."></textarea>
-          </div>
-          <button type="submit" class="submit-btn contact-submit-btn">Send Message</button>
-        </form>
-      </div>
-    </div>
-  </div>
-
   <script>
-    // Initialize counters
-    let visitorCountData = {
-      count: 0,
-      lastReset: new Date().toDateString()
-    };
-    
-    let commentsData = [];
-    let currentTheme = 'light';
-
-    // Theme toggle functionality
-    function toggleTheme() {
-      const body = document.body;
-      const themeIcon = document.getElementById('themeIcon');
-      const themeText = document.getElementById('themeText');
-      
-      if (currentTheme === 'light') {
-        body.classList.add('dark-theme');
-        themeIcon.textContent = '☀️';
-        themeText.textContent = 'Light';
-        currentTheme = 'dark';
-      } else {
-        body.classList.remove('dark-theme');
-        themeIcon.textContent = '🌙';
-        themeText.textContent = 'Dark';
-        currentTheme = 'light';
-      }
-    }
-
-    // Load saved theme preference
-    function loadTheme() {
-      // You can implement localStorage here if needed for a real website
-      // For now, we'll default to light theme
-      if (currentTheme === 'dark') {
-        toggleTheme();
-      }
-    }
-
-    // Initialize page
-    function initializePage() {
-      loadTheme();
-      loadData();
-      renderComments();
-      animateStatsOnLoad();
-    }
-
-    // Load data from memory storage
-    function loadData() {
-      // Simulate real visitor count (increments each page load)
-      visitorCountData.count += 1;
-      document.getElementById('visitorCount').textContent = visitorCountData.count;
-      
-      // Update comment count
-      updateCommentCount();
-    }
-
-    // Update comment count display
-    function updateCommentCount() {
-      document.getElementById('commentCount').textContent = commentsData.length;
-      
-      // Show/hide empty state
-      const emptyState = document.getElementById('emptyState');
-      if (commentsData.length === 0) {
-        emptyState.style.display = 'block';
-      } else {
-        emptyState.style.display = 'none';
-      }
-    }
-
-    // Render comments
-    function renderComments() {
-      const commentsList = document.getElementById('commentsList');
-      const emptyState = document.getElementById('emptyState');
-      
-      // Clear existing comments (except empty state)
-      const comments = commentsList.querySelectorAll('.comment');
-      comments.forEach(comment => comment.remove());
-      
-      // Add comments
-      commentsData.forEach(commentData => {
-        const commentEl = document.createElement('div');
-        commentEl.className = 'comment';
-        commentEl.innerHTML = `
-          <div class="comment-header">
-            <span class="comment-author">${commentData.name}</span>
-            <span class="comment-date">${commentData.date}</span>
-          </div>
-          <div class="comment-text">${commentData.text}</div>
-        `;
-        commentsList.appendChild(commentEl);
-      });
-      
-      updateCommentCount();
-    }
-
-    // Format date for display
-    function formatDate(date) {
-      const now = new Date();
-      const diff = now - date;
-      const minutes = Math.floor(diff / 60000);
-      const hours = Math.floor(diff / 3600000);
-      const days = Math.floor(diff / 86400000);
-      
-      if (minutes < 1) return 'Just now';
-      if (minutes < 60) return `${minutes}m ago`;
-      if (hours < 24) return `${hours}h ago`;
-      if (days < 7) return `${days}d ago`;
-      return date.toLocaleDateString();
-    }
-
     // Comment form submission
     document.getElementById('commentForm').addEventListener('submit', function(e) {
       e.preventDefault();
       
-      const name = document.getElementById('name').value.trim();
-      const email = document.getElementById('email').value.trim();
-      const comment = document.getElementById('comment').value.trim();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const comment = document.getElementById('comment').value;
+      
+      if (name && comment) {
+        // Create new comment element
+        const newComment = document.createElement('div');
+        newComment.className = 'comment';
+        newComment.style.animation = 'fadeIn 0.5s ease-out';
+        newComment.innerHTML = `
+          <div class="comment-header">
+            <span class="comment-author">${name}</span>
+            <span class="comment-date">Just now</span>
+          </div>
+          <div class="comment-text">${comment}</div>
+        `;
+        
+        // Add to comments list
+        const commentsList = document.getElementById('commentsList');
+        commentsList.insertBefore(newComment, commentsList.firstChild);
+        
+        // Reset form
+        this.reset();
+        
+        // Show success message
+        const submitBtn = document.querySelector('.submit-btn');
+        const originalText = submitBtn.textContent;
+        submitBtn.textContent = 'Comment Posted! ✅';
+        submitBtn.style.background = 'linear-gradient(135deg, #27ae60, #1e8449)';
+        
+        setTimeout(() => {
+          submitBtn.textContent = originalText;
+          submitBtn.style.background = 'linear-gradient(135deg, #667eea, #764ba2)';
+        }, 2000);
+        
+        // Update user count
+        const userCount = document.getElementById('userCount');
+        const currentCount = parseInt(userCount.textContent.replace(/[^\d]/g, ''));
+        userCount.textContent = (currentCount + 1).toLocaleString() + '+';
+      }
+    });
+
+    // Animate stats on scroll
+    const animateStats = () => {
+      const stats = document.querySelectorAll('.stat-number');
+      stats.forEach(stat => {
+        const finalNumber = stat.textContent;
+        if (stat.textContent.includes('+')) {
+          const number = parseInt(finalNumber.replace(/[^\d]/g, ''));
+          let current = 0;
+          const increment = number / 50;
+          const timer = setInterval(() => {
+            current += increment;
+            if (current >= number) {
+              stat.textContent = finalNumber;
+              clearInterval(timer);
+            } else {
+              stat.textContent = Math.floor(current).toLocaleString() + '+';
+            }
+          }, 50);
+        }
+      });
+    };
+
+    // Trigger stats animation on page load
+    setTimeout(animateStats, 1000);
+  </script>
+</body>
+</html>
